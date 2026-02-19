@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>Student Id</th>
+            <th>Student name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td colspan="3">bill</td>
+                <!-- <td>male</td> -->
+                <!-- <td>17</td> -->
+            </tr>
+            <tr>
+                <td>456</td>
+                <td>gill</td>
+                <td>male</td>
+                <td rowspan="3">15</td>
+            </tr>
+            <tr>
+                <td>456</td>
+                <td>gill</td>
+                <td>male</td>
+                <!-- <td>15</td> -->
+            </tr>
+            <tr>
+                <td>456</td>
+                <td>gill</td>
+                <td>male</td>
+                <!-- <td>15</td> -->
+            </tr>
+        </tbody>
+    </table>
+<br><br><br>
+    <table border="1">
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">row1 cell1</td>
+            <td>row1 cell 2</td>
+            <td>row 1 cell 3</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>row 2 cell 2</td>
+            <td>row 3 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">row 3 cell 1</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+    </table>
+
+    <br><br><br>
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Full name</th>
+            <th>Position</th>
+            <th>salary</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>bill</td>
+                <td>microsoft</td>
+                <td>100</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>apple</td>
+                <td>100</td>
+                <!-- <td rowspan="4">Company Founder</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>larrypage</td>
+                <td>google</td>
+                <td>100</td>
+                <!-- <td rowspan="4">Company Founder</td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>mark</td>
+                <td>facebook</td>
+                <td>100</td>
+                <!-- <td rowspan="4">Company Founder</td> -->
+            </tr>
+           
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Expense</td>
+                <td>4500</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
