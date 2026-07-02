@@ -1,0 +1,20 @@
+p{
+    color: rgb(17, 9, 75);
+}
+
+#article{
+    text-decoration: underline;
+}
+
+.new{
+    text-decoration: dotted;
+    text-decoration-line: overline;
+}
+
+pre,span{
+    background-color: darksalmon;
+}
+
+aside.new{
+    text-align: center;
+}

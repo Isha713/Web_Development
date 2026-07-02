@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: solid black 5px;
+            display: flex;
+            flex-flow: row wrap;
+            flex-direction: row;
+            flex-wrap: wrap;/*flex items moves to the next row while squeezing*/
+            justify-content: center;
+            justify-content: space-evenly;
+            justify-content: space-around;
+            justify-content: space-between;
+            
+        }
+        #para1{
+            background-color: rgb(224, 155, 169);
+            width: 200px;
+            height: 200px;
+            overflow: scroll;
+        }
+
+        #para2{
+            background-color: rgb(146, 201, 201);
+            width: 200px;
+            height: 200px;
+            overflow: scroll;
+        }
+
+        .container2{
+            border: solid black 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-items: start;
+            
+        }
+
+        #para3{
+            background-color: rgb(224, 155, 169);
+            width: 200px;
+            height: 200px;
+            border: solid black 2px;
+        }
+
+        #para4{
+            background-color: rgb(146, 201, 201);
+            width: 200px;
+            height: 200px;
+            border: solid black 2px;
+            align-self: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p id="para1">
+            <b>PARA 1</b>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, molestias? Nihil eaque tenetur labore ipsa voluptatum iure mollitia harum ratione.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio dignissimos corrupti vero nisi provident ducimus, in, fugit porro vitae molestiae explicabo dolor nemo, modi perspiciatis reprehenderit dolore excepturi! Mollitia consequatur id impedit soluta! Quam fuga itaque repellat maxime atque nihil esse modi aut eos, quas delectus possimus laudantium! Officiis, blanditiis!
+        </p>
+
+        <p id="para2">
+            <b>PARA 2</b>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem facilis molestiae eveniet ipsam. Soluta.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quia consequatur voluptate beatae! Quidem rerum, ipsam necessitatibus fugiat voluptate maiores animi reprehenderit nisi eaque aliquam accusamus cum delectus, molestiae repellendus deleniti vel eveniet aliquid! Quam a eius laudantium vel repellendus, debitis rem laborum enim autem dolores quis quo non quod.
+        </p>
+    </div>
+
+    <div class="container2">
+        <p id="para3">
+            <b>PARA 3</b>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam placeat, iste quis ad eius perspiciatis ea error dolorem obcaecati quam!</p>
+        
+        <p id="para4">
+            <b>PARA 4</b>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam neque quae quaerat, vitae deleniti modi eius eligendi quo officiis pariatur in sit laboriosam sapiente consequuntur odit reprehenderit</p>
+    </div>
+    
+</body>
+</html>
