@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body{
+            background-color: rgb(238, 214, 227);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1 style="text-align: center; font-size: x-large;">Student Registration Form</h1><br><br>
+            <div>
+                <label for="rollno">Roll no.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="text" size="50" id="rollno" name="rollno" placeholder="Enter your Roll_no." ><br><br>
+
+                <label for="name">Student Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="text" size="50" id="name" name="name" placeholder="Enter your Name" ><br><br>
+
+                <label for="f_name">Father's Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="text" size="50" id="f_name" name="f_name" placeholder="Enter your Father's Name" ><br><br>
+
+                <label for="dob">Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="date" size="50" id="dob" name="dob"><br><br>
+
+                <label for="phone">Phone Number&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="tel" size="50" id="phone" name="phone" placeholder="Enter your Phone Number" ><br><br>
+
+                <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="email" size="50" id="email" name="email" placeholder="Enter your Email" ><br><br>
+
+                <label for="password">Password  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="password" size="50" id="password" name="password" placeholder="Enter your Password" ><br><br>
+
+                <label for="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+
+                <label for="department">Department&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <select id="department" name="department">
+                    <option value="cse">Computer Science and Engineering</option>
+                    <option value="me">Mechanical Engineering</option>
+                    <option value="ce">Civil Engineering</option>
+                    <option value="ee">Electrical Engineering</option>
+                </select><br><br>
+
+                <label for="course">Course&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <select id="course" name="course">
+                    <option value="btech">Bachelor of Technology</option>
+                    <option value="mtech">Master of Technology</option>
+                </select><br><br>
+
+                <label for="hobbies">Hobbies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="sports" name="hobbies" value="sports">
+                <label for="music">Music</label>
+                <input type="checkbox" id="music" name="hobbies" value="music"><br><br>
+
+                <label for="picture">Upload Picture&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                <input type="file" name="picture" id="picture"><br><br>
+
+                <label for="Address">Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </label>
+                <input type="text" size="50" id="Address" name="Address" placeholder="Enter your Address" ><br><br>
+                <br><br>
+
+                <button  type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer;">Register</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
