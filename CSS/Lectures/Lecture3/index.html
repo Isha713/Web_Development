@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        h1{
+            background-color: bisque;
+            text-align: center;
+            /*
+            For making changes in all the four sides of border we can use the following properties:
+
+            border-style: dashed;
+            border-width: 5px;
+            border-radius: 10;  for rounding all corners of border
+            border-top-left-radius: 10px; for rounding top left corner of border
+            border-bottom-right-radius: 10px; for rounding bottom right corner of border
+            border-color: rgb(137, 36, 70); 
+            
+            border: dashed brown 5px; for setting border in one line
+
+            For making changes in border according to the sides we can use the following properties:
+
+           
+            border-top: dotted palevioletred 5px; */
+
+            border: solid black 5px;
+            border-radius: 10px;
+            width: 500px;
+            /*height: 100px;*/ 
+
+        }
+        .para1{
+            border: solid black 5px;
+            border-radius: 10px;
+        }
+        .para2{
+            border: solid black 5px;
+            border-radius: 10px;
+        }
+        .para3{
+            border: solid black 5px;
+            border-radius: 10px;
+        }
+        .para4{
+            border: solid black 5px;
+            border-radius: 10px;
+            background-color: yellow;
+            padding: 20px;
+            margin: 50px;
+        }
+        .padding{
+            border: solid black 5px;
+            border-radius: 10px;
+            background-color: pink;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            /*
+            first method
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-bottom: 30px;
+            padding-left: 40px;
+
+            second method
+            padding: 20px 10px 30px 40px;
+            */
+
+            padding: 10px 20px; /*( vertical axis:top and bottom , horizontal axis:left and right)*/
+        }
+
+        .margin{
+            border: solid black 5px;
+            border-radius: 10px;
+            background-color: rgb(183, 185, 240);
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            margin: 50px 20px; /*( vertical axis:top and bottom , horizontal axis:left and right)*/ 
+        }   
+        span{
+            border: solid black 5px;
+            border-radius: 10px;
+            background-color: cyan;
+            /*width: 500px;
+            height: 100px;  cannot apply height and width as span is an inline element*/
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Welcome to CSS Box Model</h1>
+
+    <span>Hello Everyone</span>
+
+    <p class="para1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis totam quidem eaque, quam dolorem excepturi quasi non cum modi voluptatibus!</p>
+
+    <p class="para2" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique vero dolore, esse quidem et doloremque repellat laboriosam quos deleniti ratione. Impedit deleniti quasi expedita rerum repellendus perspiciatis quam corporis recusandae!</p>
+
+    <p class="para3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae officiis voluptatibus magni repudiandae excepturi magnam atque nihil inventore sunt incidunt animi hic autem sapiente vel ut, veritatis quam architecto provident. Nesciunt cum quasi perferendis magni recusandae laborum. Ratione, numquam laboriosam!</p>
+
+    <p class="para4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reiciendis recusandae qui ad, nesciunt facere ipsam cum excepturi officiis aperiam omnis. Nostrum aut quidem molestiae itaque veritatis nihil delectus voluptate commodi eligendi maxime labore, excepturi doloremque, aliquid illo illum enim dolorum asperiores laudantium ducimus quae fuga officia error consectetur dicta.</p>
+
+    <p class="padding">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum velit, quisquam doloribus sed esse doloremque veritatis sint atque eveniet alias possimus non qui repellendus, est quod. Possimus architecto impedit eveniet qui. Quae ipsum culpa aspernatur, voluptas non adipisci esse?</p>
+
+    <p class="margin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci consequuntur vitae culpa. Nobis, placeat. Iste harum ratione qui, cumque consectetur amet nobis sapiente culpa reiciendis dolorum vero obcaecati soluta architecto officia dolore aut quos. Nostrum blanditiis sit excepturi eveniet sequi.</p>
+
+</body>
+</html>
