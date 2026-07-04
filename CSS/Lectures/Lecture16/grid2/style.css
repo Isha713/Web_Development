@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw ;
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    background-color: rgb(189, 33, 59);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    padding: 100px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap:100px;
+
+    
+}
+
+.item{
+    background-color: white;
+    border: solid black 5px;
+    color: black;
+    font-size: 200px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center ; */
+
+    /* place items at the rightmost area of cell in horizontal axis*/
+    /* justify-self: end; */   
+    /* justify-self: stretch; */
+
+    /* in vertical axis */
+    /* align-self:self-end; */
+    /* align-self: stretch; */
+
+    /* combination of justify-self and align-self --> place-self */
+    place-self: center;
+    place-self: stretch;
+}
